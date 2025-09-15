@@ -1,0 +1,28 @@
+{
+  "name": "helper-extreme-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot with referral system, coins, broadcasts, and API lookups",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegraf",
+    "coins",
+    "referrals",
+    "broadcast"
+  ],
+  "author": "Legend Killer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
